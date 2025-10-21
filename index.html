@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cards do Mundo Místico</title>
+    <link rel="stylesheet" href="/estilo.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Workbench&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+
+
+    <h1>Cards do Mundo Místico</h1>
+<div class="carousel">
+    <button class="seta esquerda" id="seta-esquerda" onclick="anteriorCard()">&#10094;</button>
+    <div class="container">
+        <!--os cards das criaturas vão aqui-->
+        <div class="card vampiro">
+          <img src="./src/img/vampiro.jpg" alt="Card do vampiro">
+          <p>Energia:<span id="energia-vampiro"> 900</span></p>
+          <div class="botoes">
+            <button class="botao vampiro" id="btn-magia-vampiro">Usar Energia</button>
+            <button class="botao vampiro" id="btn-restaurar-vampiro">Restaurar Energia</button>
+          </div>
+        </div>
+
+        <div class="card bruxa">
+            <img src="./src/img/bruxa.jpg" alt="Card da bruxa">
+            <p>Energia:<span id="energia-bruxa"> 750</span></p>
+            <div class="botoes">
+              <button class="botao bruxa" id="btn-magia-bruxa">Usar Energia</button>
+              <button class="botao bruxa" id="btn-restaurar-bruxa">Restaurar Energia</button>
+            </div>
+          </div>
+
+          <div class="card sereia">
+            <img src="./src/img/sereia.jpg" alt="Card da sereia">
+            <p>Energia:<span id="energia-sereia"> 350</span></p>
+            <div class="botoes">
+              <button class="botao sereia" id="btn-magia-sereia">Usar Energia</button>
+              <button class="botao sereia" id="btn-restaurar-sereia">Restaurar Energia</button>
+            </div>
+          </div>
+
+          <div class="card fada">
+            <img src="./src/img/fada.jpg" alt="Card da fada">
+            <p>Energia:<span id="energia-fada"> 400</span></p>
+            <div class="botoes">
+              <button class="botao fada" id="btn-magia-fada">Usar Energia</button>
+              <button class="botao fada" id="btn-restaurar-fada">Restaurar Energia</button>
+            </div>
+          </div>
+
+          <div class="card dragao">
+            <img src="./src/img/dragão.jpg" alt="Card do dragão">
+            <p>Energia:<span id="energia-dragao"> 1000</span></p>
+            <div class="botoes">
+              <button class="botao dragao" id="btn-magia-dragao">Usar Energia</button>
+              <button class="botao dragao" id="btn-restaurar-dragao">Restaurar Energia</button>
+            </div>
+          </div>
+
+          <div class="card unicornio">
+            <img src="./src/img/unicornio.jpg" alt="Card do unicornio">
+            <p>Energia:<span id="energia-unicornio"> 210</span></p>
+            <div class="botoes">
+              <button class="botao unicornio" id="btn-magia-unicornio">Usar Energia</button>
+              <button class="botao unicornio" id="btn-restaurar-unicornio">Restaurar Energia</button>
+            </div>
+          </div>
+
+
+    </div>
+    <button class="seta direita" id="seta-direita" onclick="proximoCard()">&#10095;</button>
+</div>
+    
+<!--testando-->
+
+
+
+
+
+    <script type="module" src="./JS/index.js"></script>
+</body>
+</html>
