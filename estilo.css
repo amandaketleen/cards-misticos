@@ -1,0 +1,416 @@
+body {
+   
+   background: linear-gradient(#00000099, #00000099),
+   url(./src/img/background.gif) no-repeat center/cover;
+   background-attachment: fixed;
+   overflow: hidden;   
+
+min-height: 100vh;
+    
+    color: #f3e5f5;
+    font-family: 'Cursive', sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+  }
+
+  h1 {
+    font-family: "Bungee Spice", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top: 5%;
+  }
+  
+
+  .carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .seta {
+    background: #00000080;
+    border: none;
+    color: #fc2424;
+    font-size: 30px;
+    cursor: pointer;
+    padding: 10px;
+    
+    margin: 0 10px;
+    transition: all 0.3s;
+  }
+
+  .seta:hover {
+    background: #b303034d;
+    transform: scale(1.2);
+  }
+  
+  
+  .container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+  }
+  
+  .card {
+    display: none;
+    position: relative;
+    background: #3e0015cc;
+    border: 4px solid #55000e;
+    border-radius: 20px;
+    padding: 15px 25px;
+    margin: 15px;
+    box-shadow: 0 0 15px #720013, 0 0 30px #6d0815 inset;
+    color: #f3e5f5;
+
+    font-family: "Workbench", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "BLED" 0,
+      "SCAN" 0;
+  }
+  
+  .card:first-child {
+    display: block;
+  }
+
+  .card.vampiro {
+    background: #3e0015cc;
+    border: 4px solid #55000e;
+    box-shadow: 0 0 15px #720013, 0 0 30px #6d0815 inset;
+  }
+
+.botao.vampiro {
+  background-color: #a5131f;
+  box-shadow: 0 0 5px #aa4449;
+}
+
+.botao.vampiro:hover{
+  background-color: #b8001f;
+  box-shadow: 0 0 15px #ac122b, 0 0 30px #55000e inset;
+}
+  
+  .card.bruxa {
+    background: #1f003ecc;
+    border: 4px solid #4a0072;
+    box-shadow: 0 0 15px #6a1b9a, 0 0 30px #2e003e inset;
+  }
+
+  .botao.bruxa {
+    background-color: #2e003e;
+    box-shadow: 0 0 5px #ad56be;
+
+  }
+
+  .botao.bruxa:hover{
+    background-color: #6d1b69;
+    box-shadow: 0 0 15px #d770e0, 0 0 30px #7d218a inset;
+  }
+  
+  .card.sereia {
+    background: #002f3ecc;
+    border: 4px solid #005f73;
+    box-shadow: 0 0 15px #00b4d8, 0 0 30px #003049 inset;
+  }
+
+  .botao.sereia{
+    background-color: #007b94;
+    box-shadow: 0 0 15px #52b5c9, 0 0 30px #003049 inset;
+  }
+
+  .botao.sereia:hover{
+    background-color: #002f3ecc;
+    box-shadow: 0 0 15px #4388a8, 0 0 30px #00253a inset;
+  }
+  
+  
+  .card.fada {
+    background: #3e0026cc;
+    border: 4px solid #8b005d;
+    box-shadow: 0 0 15px #ff0095, 0 0 30px #550032 inset;
+  }
+
+  .botao.fada{
+    background-color: #ff0095;
+    box-shadow: 0 0 15px #dd5cc1, 0 0 30px #7c014d inset;
+  }
+
+  .botao.fada:hover{
+    background-color: #ac0064;
+    box-shadow: 0 0 15px #9e478b, 0 0 30px #7c014d inset;
+  }
+  
+  .card.dragao {
+  
+    background-color: #003e0fcc;
+    border: 4px solid #006400;
+    box-shadow: 0 0 15px #03a559, 0 0 30px #002b00 inset;
+  }
+
+  .botao.dragao{
+    background-color: #2a7e3f;
+    box-shadow: 0 0 15px #2fb174, 0 0 30px #209920 inset;
+  }
+
+  .botao.dragao:hover{
+    background-color: #0f5521;
+    box-shadow: 0 0 15px #1b724a, 0 0 30px #0c740c inset;
+  }
+  
+  
+  .card.unicornio {
+    background: linear-gradient(#e28eb8c5, #6e002eb9);
+    border: 4px solid #ee8ad5;
+    box-shadow: 0 0 15px #eb02c4d5, 0 0 30px #b30095 inset;
+  }
+  
+  .botao.unicornio{
+    background: linear-gradient(#ffa5d2fa, #860466);
+    box-shadow: 0 0 15px #f151d7, 0 0 30px #8a2779 inset;
+  }
+
+.botao.unicornio:hover{
+  background: linear-gradient(#ad236afa, #e09dd0);
+  box-shadow: 0 0 15px #f778e1, 0 0 30px #8a2779 inset;
+}
+
+  img {
+    width: 230px;
+    height: 320px;
+    border-radius: 5%;
+    margin-bottom: 10px;
+    
+  }
+
+  
+  button {
+    font-family: "Grenze Gotisch", serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+
+    margin: 5px;
+    padding: 7px 12px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    background-color: #a5131f;
+    color: white;
+    font-weight: bold;
+    box-shadow: 0 0 5px #c70c2b;
+    transition: all 0.3s;
+  }
+  
+  button:hover {
+    background-color: #b8001f;
+    box-shadow: 0 0 15px #ac122b, 0 0 30px #55000e inset;
+  }
+  
+
+  /* ====== MOBILE ====== */
+@media (max-width: 600px) {
+  body {
+    overflow-x: hidden;
+    background-size: cover;
+  }
+
+  .carousel {
+    width: 100%;
+    justify-content: center;
+  }
+
+
+
+  .container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .card {
+    width: 85%;
+    max-width: 320px;
+    margin: 0 auto;
+    text-align: center;
+  }
+
+  .botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .botoes button {
+    width: 100%;
+  }
+
+  /* Setas coladas nas laterais do card */
+  .seta {
+    font-size: 28px;
+    top: 50%;
+  
+  }
+
+  .seta.esquerda {
+    left: 5px;
+  }
+
+  .seta.direita {
+    right: 5px;
+  }
+
+  /* Texto quebrando e centralizado */
+  p, span {
+    text-align: center;
+    display: block;
+    margin: 3%;
+  }
+}
+
+
+@media (max-width: 500px){
+  body {
+    overflow-x: hidden;
+    background-size: cover;
+  }
+
+  h1 {
+    margin-top: 9%;
+font-size: 25px;
+text-align: center;
+  }
+
+  .carousel {
+    width: 100%;
+    justify-content: center;
+  }
+
+
+
+  .container {
+    width: 70%;
+    display: flex;
+    justify-content: center;
+  }
+
+  .card {
+    width: 85%;
+    max-width: 320px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10%;
+  }
+
+  .botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .botoes button {
+    width: 100%;
+  }
+
+  /* Setas coladas nas laterais do card */
+  .seta {
+    margin: 0;
+    
+  }
+
+  .seta.esquerda {
+    padding-left: 5px;
+   
+  }
+
+  .seta.direita {
+   padding-left: 5px;
+  }
+
+  /* Texto quebrando e centralizado */
+  p, span {
+    text-align: center;
+    display: block;
+    margin: 3%;
+  }
+
+}
+
+@media (max-width: 400px){
+  body {
+    overflow-x: hidden;
+    background-size: cover;
+    
+  }
+
+  h1 {
+    margin-top: 9%;
+font-size: 20px;
+text-align: center;
+  }
+
+  .carousel {
+    width: 100%;
+    justify-content: center;
+    
+  }
+
+img {
+  width: 150px;
+  height: 210px;
+}
+
+  .container {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+  
+  }
+
+  .card {
+    width: 80%;
+    max-width: 320px;
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 1%;
+   
+    
+  }
+
+
+  .botoes {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .botoes button {
+    width: 100%;
+  }
+
+  /* Setas coladas nas laterais do card */
+  .seta {
+    margin: 4%;
+    font-size: 15px;
+    
+  }
+
+  .seta.esquerda {
+    padding-left: 5px;
+  }
+
+  .seta.direita {
+   padding-left: 5px;
+  }
+
+  /* Texto quebrando e centralizado */
+  p, span {
+    text-align: center;
+    display: block;
+    margin: 3%;
+  }
+
+}
