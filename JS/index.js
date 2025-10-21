@@ -3,9 +3,9 @@ import { Vampiro, Bruxa, Sereia, Fada, Dragao, Unicornio } from "./POO.js";
 
 // ====== CRIANDO AS INSTÂNCIAS DAS CRIATURAS ======
 let vampiro = new Vampiro("Van Helsing", 900, "Voar");
-let bruxa = new Bruxa("Morgana", 750, "Poção");
-let sereia = new Sereia("Sereia Azul", 350, "Encanto");
-let fada = new Fada("Luna", 400, "Magia");
+let bruxa = new Bruxa("Lilith", 750, "Poção");
+let sereia = new Sereia("Merlia", 350, "Encanto");
+let fada = new Fada("Lisa", 400, "Magia");
 let dragao = new Dragao("Draco", 1000, "Fogo");
 let unicornio = new Unicornio("Estrela", 210, "Energia");
 
