@@ -12,7 +12,7 @@ body {
    background-attachment: fixed;
    overflow-x: hidden;
    overflow-y: auto;
-min-height: 100vh;
+  
     
     color: #f3e5f5;
     font-family: 'Cursive', sans-serif;
@@ -63,7 +63,7 @@ min-height: 100vh;
   }
   
   .card {
-    width: 100%;
+   
     display: none;
     position: relative;
     background: #3e0015cc;
@@ -188,13 +188,16 @@ min-height: 100vh;
 }
 
   img {
-    width: 230px;
-    height: 320px;
+    width: 30vh;
+    height: 40vh;
     border-radius: 5%;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     
   }
 
+  p{
+    margin-bottom: 10px;
+  }
   
   button {
     font-family: "Grenze Gotisch", serif;
@@ -202,6 +205,7 @@ min-height: 100vh;
     font-weight: weight;
     font-style: normal;
 
+    
     margin: 5px;
     padding: 7px 12px;
     border-radius: 10px;
