@@ -228,7 +228,7 @@ body {
   /* ====== MOBILE ====== */
 @media (max-width: 600px) {
   body {
-    overflow-x: hidden;
+   /* overflow-x: hidden;*/
     background-size: cover;
   }
 
@@ -300,7 +300,7 @@ body {
 
 @media  (max-width: 500px){
   body {
-    overflow-x: hidden;
+   /* overflow-x: hidden;*/
     background-size: cover;
   }
 
@@ -368,7 +368,7 @@ text-align: center;
 
 @media (max-width: 400px){
   body {
-    overflow-x: hidden;
+    /*overflow-x: hidden;*/
     background-size: cover;
     
   }
