@@ -10,8 +10,8 @@ body {
    background: linear-gradient(#00000099, #00000099),
    url('src/img/background.gif') no-repeat center/cover;
    background-attachment: fixed;
-   overflow-x: hidden;
-   overflow-y: auto;
+  
+   
   
     
     color: #f3e5f5;
