@@ -10,10 +10,6 @@ body {
    background: linear-gradient(#00000099, #00000099),
    url('src/img/background.gif') no-repeat center/cover;
    background-attachment: fixed;
-  
-   
-  
-    
     color: #f3e5f5;
     font-family: 'Cursive', sans-serif;
     text-align: center;
@@ -30,7 +26,6 @@ body {
     -webkit-text-fill-color: transparent;
     margin-top: 50px;
     margin-bottom: 5px;
-   
   }
   
 
@@ -64,11 +59,9 @@ body {
     justify-content: center;
     flex-wrap: wrap;
     padding: 20px;
-   
   }
   
   .card {
-   
     display: none;
     position: relative;
     background: #3e0015cc;
@@ -209,8 +202,6 @@ body {
     font-optical-sizing: auto;
     font-weight: weight;
     font-style: normal;
-
-    
    
     padding: 7px 12px;
     border-radius: 10px;
@@ -228,6 +219,16 @@ body {
     box-shadow: 0 0 15px #ac122b, 0 0 30px #55000e inset;
   }
   
+
+
+
+
+
+
+
+
+
+
   /*Resposividade*/
 
 @media (max-width: 600px) {
@@ -278,7 +279,7 @@ body {
     width: 100%;
   }
 
-  /* Setas coladas nas laterais do card */
+  
   .seta {
     font-size: 28px;
     top: 50%;
@@ -293,7 +294,7 @@ body {
     right: 5px;
   }
 
-  /* Texto quebrando e centralizado */
+
   p, span {
     text-align: center;
     display: block;
@@ -346,7 +347,7 @@ text-align: center;
     width: 100%;
   }
 
-  /* Setas coladas nas laterais do card */
+
   .seta {
     margin: 0;
     
@@ -361,7 +362,7 @@ text-align: center;
    padding-left: 5px;
   }
 
-  /* Texto quebrando e centralizado */
+
   p, span {
     text-align: center;
     display: block;
@@ -449,7 +450,7 @@ p {
    padding-left: 7px;
   }
 
-  /* Texto quebrando e centralizado */
+
   p, span {
     text-align: center;
     display: block;
