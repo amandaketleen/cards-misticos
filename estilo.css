@@ -22,11 +22,11 @@ body {
   }
 
   h1 {
-    font-family: "Bungee Spice", sans-serif;
+    /*font-family: "Bungee Spice", sans-serif;*/
     font-weight: 400;
     font-style: normal;
     margin-top: 80px;
-    margin-bottom: 15px;
+    margin-bottom: 5px;
    
   }
   
@@ -238,11 +238,7 @@ body {
     justify-content: center;
   }
 
-h1 {
-  font-family: "Bungee Spice", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-}
+
 
   .container {
     width: 60%;
@@ -313,9 +309,7 @@ h1 {
     margin-top: 95px; 
     font-size: 25px;
 text-align: center;
-font-family: "Bungee Spice", sans-serif;
-font-weight: 400;
-font-style: normal;
+
   }
 
   .carousel {
@@ -386,9 +380,7 @@ font-style: normal;
 font-size: 20px;
 text-align: center;
 margin-bottom: 20px;
-font-family: "Bungee Spice", sans-serif;
-font-weight: 400;
-font-style: normal;
+
 
   }
 
